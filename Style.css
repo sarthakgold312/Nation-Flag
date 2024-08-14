@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flag{
+    display: grid;
+    grid-template-rows: max-content;
+}
+.flagT{
+    background-color: rgb(238, 76, 16);
+    height:260px;
+    width: 100%;
+}
+.flagC{
+    background-color: rgb(255, 255, 255);
+    height: 255px;
+    width: 100%;
+}
+.flagB{
+    background-color: rgb(23, 132, 43);
+    height: 260px;
+    width: 100%;
+}
+.circle{
+    margin-left: 40%;
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+}
+.c1{
+    margin: 0% 40% 0% 40%;
+    background-color: transparent;
+    height: 100%;
+    width: 260px;
+    border: 2px solid navy;
+    border-radius: 50%;
+    position: relative;
+  }
+
+.chakr{
+    position: absolute;
+    width: 2px;
+    height: 50%;
+    background-color: navy;
+    
+    left: 50%;
+    transform-origin: bottom center;
+}
+
+
+.circle .chakr:nth-child(1) {
+    transform: rotate(15deg);
+  }
+  .circle .chakr:nth-child(2) {
+    transform: rotate(30deg);
+  }
+  .circle .chakr:nth-child(3) {
+    transform: rotate(45deg);
+  }
+  .circle .chakr:nth-child(4) {
+    transform: rotate(60deg);
+  }
+  .circle .chakr:nth-child(5) {
+    transform: rotate(75deg);
+  }
+  .circle .chakr:nth-child(6) {
+    transform: rotate(90deg);
+  }
+  .circle .chakr:nth-child(7) {
+    transform: rotate(105deg);
+  }
+  .circle .chakr:nth-child(8) {
+    transform: rotate(120deg);
+  }
+  .circle .chakr:nth-child(9) {
+    transform: rotate(135deg);
+  }
+  .circle .chakr:nth-child(10) {
+    transform: rotate(150deg);
+  }
+  .circle .chakr:nth-child(11) {
+    transform: rotate(165deg);
+  }
+  .circle .chakr:nth-child(12) {
+    transform: rotate(180deg);
+  }
+  .circle .chakr:nth-child(13) {
+    transform: rotate(195deg);
+  }
+  .circle .chakr:nth-child(14) {
+    transform: rotate(210deg);
+  }
+  .circle .chakr:nth-child(15) {
+    transform: rotate(225deg);
+  } 
+  .circle .chakr:nth-child(16) {
+    transform: rotate(240deg);
+  } 
+   .circle .chakr:nth-child(17) {
+    transform: rotate(255deg);
+  } 
+   .circle .chakr:nth-child(18) {
+    transform: rotate(270deg);
+  }
+    .circle .chakr:nth-child(19) {
+    transform: rotate(285deg);
+  }
+    .circle .chakr:nth-child(20) {
+    transform: rotate(300deg);
+  }
+    .circle .chakr:nth-child(21) {
+    transform: rotate(315deg);
+  }
+    .circle .chakr:nth-child(22) {
+    transform: rotate(330deg);
+  }
+    .circle .chakr:nth-child(23) {
+    transform: rotate(345deg);
+  }
+    .circle .chakr:nth-child(24) {
+    transform: rotate(360deg);
+  }
